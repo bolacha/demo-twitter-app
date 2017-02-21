@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C8C96C2D1E5C73FD005E0533 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C96C2C1E5C73FD005E0533 /* AppDelegate.swift */; };
-		C8C96C2F1E5C73FD005E0533 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C96C2E1E5C73FD005E0533 /* ViewController.swift */; };
-		C8C96C321E5C73FD005E0533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C96C301E5C73FD005E0533 /* Main.storyboard */; };
 		C8C96C351E5C73FD005E0533 /* demo_twitter_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C8C96C331E5C73FD005E0533 /* demo_twitter_app.xcdatamodeld */; };
 		C8C96C371E5C73FD005E0533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C96C361E5C73FD005E0533 /* Assets.xcassets */; };
 		C8C96C3A1E5C73FD005E0533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C96C381E5C73FD005E0533 /* LaunchScreen.storyboard */; };
 		C8C96C451E5C73FD005E0533 /* demo_twitter_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C96C441E5C73FD005E0533 /* demo_twitter_appTests.swift */; };
 		C8C96C501E5C73FD005E0533 /* demo_twitter_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C96C4F1E5C73FD005E0533 /* demo_twitter_appUITests.swift */; };
+		C8C96C5E1E5C7F4B005E0533 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C96C5D1E5C7F4B005E0533 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +36,6 @@
 /* Begin PBXFileReference section */
 		C8C96C291E5C73FD005E0533 /* demo-twitter-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo-twitter-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C96C2C1E5C73FD005E0533 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C8C96C2E1E5C73FD005E0533 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C8C96C311E5C73FD005E0533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C8C96C341E5C73FD005E0533 /* demo_twitter_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = demo_twitter_app.xcdatamodel; sourceTree = "<group>"; };
 		C8C96C361E5C73FD005E0533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8C96C391E5C73FD005E0533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +46,7 @@
 		C8C96C4B1E5C73FD005E0533 /* demo-twitter-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "demo-twitter-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C96C4F1E5C73FD005E0533 /* demo_twitter_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo_twitter_appUITests.swift; sourceTree = "<group>"; };
 		C8C96C511E5C73FD005E0533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C96C5D1E5C7F4B005E0533 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				C8C96C2C1E5C73FD005E0533 /* AppDelegate.swift */,
-				C8C96C2E1E5C73FD005E0533 /* ViewController.swift */,
-				C8C96C301E5C73FD005E0533 /* Main.storyboard */,
 				C8C96C361E5C73FD005E0533 /* Assets.xcassets */,
 				C8C96C381E5C73FD005E0533 /* LaunchScreen.storyboard */,
 				C8C96C3B1E5C73FD005E0533 /* Info.plist */,
 				C8C96C331E5C73FD005E0533 /* demo_twitter_app.xcdatamodeld */,
+				C8C96C5D1E5C7F4B005E0533 /* HomeController.swift */,
 			);
 			path = "demo-twitter-app";
 			sourceTree = "<group>";
@@ -237,7 +234,6 @@
 			files = (
 				C8C96C3A1E5C73FD005E0533 /* LaunchScreen.storyboard in Resources */,
 				C8C96C371E5C73FD005E0533 /* Assets.xcassets in Resources */,
-				C8C96C321E5C73FD005E0533 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8C96C2F1E5C73FD005E0533 /* ViewController.swift in Sources */,
+				C8C96C5E1E5C7F4B005E0533 /* HomeController.swift in Sources */,
 				C8C96C2D1E5C73FD005E0533 /* AppDelegate.swift in Sources */,
 				C8C96C351E5C73FD005E0533 /* demo_twitter_app.xcdatamodeld in Sources */,
 			);
@@ -300,14 +296,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C8C96C301E5C73FD005E0533 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C8C96C311E5C73FD005E0533 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C8C96C381E5C73FD005E0533 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -509,6 +497,7 @@
 				C8C96C561E5C73FD005E0533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8C96C571E5C73FD005E0533 /* Build configuration list for PBXNativeTarget "demo-twitter-appTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +506,7 @@
 				C8C96C591E5C73FD005E0533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8C96C5A1E5C73FD005E0533 /* Build configuration list for PBXNativeTarget "demo-twitter-appUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +515,7 @@
 				C8C96C5C1E5C73FD005E0533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
